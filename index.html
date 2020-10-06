@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="full-hero hero-home">
+    <div class="hero-content">
+      <h5>I'm Ben.</h5>
+      <ul class="social-list">
+        <li>
+          <a href="https://example.com/" class="social-link">Ig</a>
+        </li>
+        <li>
+          <a href="https://example.com/" class="social-link">Em</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="home-content">
+    <h1 class="content-header">Mechanical Engineering</h1>
+    {% for row in (1..2) %}
+    <div class="gallery-row">
+      {% for project in (1..3) %} {% include project-preview.html %} {% endfor
+      %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="home-content">
+    <h1 class="content-header">Software Development</h1>
+    <div class="gallery-row">
+      {% for project in (1..3) %} {% include project-preview.html %} {% endfor
+      %}
+    </div>
+  </div>
+
+  <div class="home-content">
+    <h1 class="content-header">Climbing</h1>
+    <div class="gallery-row">
+      {% for project in (1..3) %} {% include project-preview.html %} {% endfor
+      %}
+    </div>
+  </div>
+
+  <div class="content-two-col home-about home-content">
+    <h2 class="home-about-title home-sec-title">About Me</h2>
+    <p>
+      Amet elit nesciunt tempora ducimus autem officiis voluptatem Consequatur
+      magnam sed explicabo commodi unde Quia nemo modi quos iure reprehenderit
+      Adipisci consectetur officiis repellat officiis labore. Consequuntur enim
+      eveniet repellendus
+    </p>
+  </div>
+</div>

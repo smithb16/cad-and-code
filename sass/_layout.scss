@@ -1,0 +1,92 @@
+// File: _layout.scss
+// This file contains all styles related to the layout of the site.
+
+/* VARIABLES */
+$bdr: 1px solid black;
+
+/* GLOBAL STYLES */
+
+.content-container {
+  padding-top: 10vh;
+  width: 100%;
+}
+body {
+  min-height: 100vh;
+}
+
+/* HEADER STYLES */
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+.header-logo {
+}
+.header-nav {
+}
+.header-nav > li {
+  display: inline-block;
+}
+/* HERO STYLES */
+.full-hero {
+  box-sizing: border-box;
+  height: 90vh;
+}
+.hero-content {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translate(0 -50%);
+}
+
+/* HOME CONTENT STYLES */
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.home-content {
+  border: $bdr;
+}
+.home-mechanical h2 {
+  order: 2;
+}
+.home-climbing h2 {
+  order: 2;
+}
+.content-header {
+  display: block;
+  font-size: 7rem;
+  padding: 10vh 0;
+  text-align: center;
+  vertical-align: middle;
+}
+/* GALLERY STYLES */
+.gallery-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+.project-preview {
+  border: $bdr;
+  max-width: 400px;
+  min-width: 100px;
+  padding: 0 3vw;
+  width: 25vw;
+}
+.project-preview img {
+  width: 100%;
+}
+
+/* FOOTER STYLES */
+
+/* LOGO STYLES */
+.logo-ampersand {
+  display: inline-block;
+}
