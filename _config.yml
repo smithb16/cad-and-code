@@ -1,0 +1,22 @@
+sass:
+  sass_dir: _sass
+collections:
+  projects:
+    output: true
+#    permalink: /:projects/:name
+
+# Set permalinks
+# Could also use:
+# permalink: /:categories/:year/:month/:day/:title/
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,306 @@
+// File: _layout.scss
+// This file contains all styles related to the layout of the site.
+
+/* VARIABLES */
+// color palette:
+// https://coolors.co/82c0cc-ede7e3-006992-ffa62b-27233a
+$dark-blue: #022249;
+$cyan: #95ffff;
+$middle-blue: #55bdca;
+$light-blue: #c7eef5;
+$light-orange: #f07c41;
+$orange: #df622c;
+$dark-orange: #982604;
+$black: #111;
+$gray: #999;
+$white: rgba(255, 255, 255, 0.9);
+
+$bdr: 1px solid black;
+$font-stack: helvetica, arial, sans-serif;
+$heading-font-stack: "Barlow Condensed", sans-serif;
+
+/* GLOBAL STYLES */
+html {
+  background-color: $dark-blue;
+  color: $white;
+}
+.content-container {
+  padding-top: 10vh;
+  width: 100%;
+}
+
+body {
+  font-family: $font-stack;
+  min-height: 100vh;
+}
+h1 {
+  font-family: $heading-font-stack;
+  font-size: 7vw;
+  margin-top: 0;
+}
+h2 {
+  font-family: $heading-font-stack;
+  font-size: 2em;
+}
+h4 {
+  font-family: $heading-font-stack;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+a {
+  color: $middle-blue;
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+  margin: 0.75em 0;
+}
+li {
+  line-height: 1.5;
+}
+/* HEADER STYLES */
+.header {
+  align-items: center;
+  background-color: $light-blue;
+  color: $middle-blue;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+.header-logo {
+  border-radius: 10px;
+  text-align: left;
+}
+.header-nav {
+  padding: 3vh 60px 3vh 0;
+  text-align: right;
+}
+.header-nav > li {
+  display: inline-block;
+  margin-left: 1em;
+}
+.header-nav > li ~ li {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1em;
+}
+.nav-links a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav-links a:hover {
+  color: $dark-blue;
+}
+/* HERO STYLES */
+.full-hero {
+  background-color: #c7dbfc;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 90vh;
+  padding-top: 10vh;
+}
+.full-hero:after {
+  border: 10px solid;
+  border-color: #fff transparent transparent;
+  bottom: 2vh;
+  color: #fff;
+  content: "";
+  height: 0;
+  font-size: 36px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 0;
+}
+.hero-home {
+  background-image: url(images/shark.jpg);
+  background-position: center top;
+}
+.hero-content {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  transform: translate(0 -50%);
+}
+.hero-content h5 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 7vw;
+  margin-bottom: 0.25em;
+}
+.hero-content .social-link {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #557c83;
+}
+.hero-content .social-link:hover {
+  background-color: #000;
+  color: #fff;
+}
+.hero-caption {
+  font-size: 0.8em;
+  position: relative;
+  top: -1em;
+}
+/* ABOUT STYLES */
+.home-about {
+  ul {
+    // line-height: 1.1;
+    padding-left: 5vw;
+  }
+  li {
+    line-height: 2;
+  }
+}
+
+/* HOME CONTENT STYLES */
+.half-hero {
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+
+  height: 50vh;
+  h2 {
+    color: $white;
+    display: block;
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+.home-content {
+  padding: 3vh 3vw;
+  h3 {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+.skills-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  li {
+    text-align: center;
+    width: 20%;
+  }
+  h4 {
+    font-size: 5em;
+  }
+}
+
+/* GALLERY STYLES */
+.project-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.project-preview {
+  background-color: $white;
+  border-radius: 10px;
+  margin: 2% 0;
+  max-width: 400px;
+  min-width: 200px;
+  padding: 1em;
+  width: 25vw;
+  a {
+    color: $dark-blue;
+  }
+  p {
+    font-size: 0.8em;
+  }
+  img {
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.project-preview:hover {
+  background-color: $light-blue;
+}
+
+/* SOCIAL STYLES */
+.social-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.social-link {
+  background: rgba(150, 150, 150, 0.5);
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: $white;
+  display: inline-block;
+  font-family: helvetica, arial, sans;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 1;
+  padding-top: 0.85em;
+  text-align: center;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.social-list > li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+/* FOOTER STYLES */
+.footer-logo {
+  background-color: $light-blue;
+  border-radius: 200px;
+  box-sizing: border-box;
+  display: block;
+  height: 15vh;
+  margin: 3vh auto;
+  padding: 3.5vh 1vh 3.5vh 0;
+  text-align: center;
+  width: 15vh;
+}
+.site-credits {
+  position: relative;
+  bottom: -3vh;
+}
+
+/* LOGO STYLES */
+
+.footer-nav {
+  list-style: none;
+  text-align: center;
+  li {
+    display: inline-block;
+    padding: 5vw;
+  }
+  a:hover {
+    color: $white;
+  }
+}
+.text-logo {
+  color: $dark-blue;
+  display: block;
+  font-family: $heading-font-stack;
+  font-size: 3vh;
+  line-height: 0.9;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.logo-ampersand {
+  display: inline-block;
+}
+.text-logo:hover,
+.text-logo:active {
+  color: $middle-blue;
+}

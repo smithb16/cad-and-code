@@ -1,7 +1,9 @@
 <div class="project-preview">
-  <img src="images/slide1.jpg" alt="" />
-  <p>
-    Consectetur nulla nostrum optio saepe possimus Odio quam repellat harum
-    commodi illo minima. Vel asperiores?
-  </p>
+  <a href="{{ project.url }}">
+    <img src="{{ project.thumb-image }}" alt="{{ project.name }}" />
+    <h4 class="project-name">{{ project.name }}</h4>
+    <p>
+      {{ project.preview-blurb }}
+    </p>
+  </a>
 </div>

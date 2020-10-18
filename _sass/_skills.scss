@@ -1,0 +1,31 @@
+/* SKILLS STYLES */
+.home-skills {
+  background-color: $dark-blue;
+  color: $white;
+}
+.skills-col {
+  padding-right: 2vw;
+  width: 25%;
+
+  h3 {
+    font-size: 2vw;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  ul {
+    padding-left: 10px;
+  }
+  li {
+    font-size: 90%;
+    list-style: none;
+    padding: 10px 0 0;
+  }
+}
+
+/* SKILLS STYLES */
+.home-skills {
+  padding: 5% 2%;
+}
+.skills-col {
+  width: 25%;
+}

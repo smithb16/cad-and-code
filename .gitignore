@@ -1,2 +1,3 @@
 .sass-cache/
-stylesheets/main.css.map
+_site/
+.jekyll-cache
