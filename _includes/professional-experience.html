@@ -1,0 +1,13 @@
+<h3 class="project-name">{{ project.name }}</h3>
+<div class="experience-header">
+  <img src="{{ project.thumb-image }}" alt="{{ project.name }}" />
+  <div class="experience-col">
+    {% for role in project.roles %}
+    <h5 class="project-role">{{ role }}</h5>
+    {% endfor %}
+  </div>
+  <h6 class="date-range">{{ project.date-range }}</h6>
+</div>
+<hr />
+
+{{ project.content }}

@@ -1,16 +1,24 @@
 ---
-layout: default
-title: Projects
+title: Portfolio of Mechanical & Software Projects
 ---
 
-<h1>Projects</h1>
-
-<ul>
-  {% for project in site.projects %}
-  <li>
-    <h2><a href="{{project.url}}">{{ project.name }}</a></h2>
-    <h3>{{ project.material }}</h3>
-    {{ project.content }}
-  </li>
-  {% endfor %}
-</ul>
+<div class="project-directory">
+  <div class="home-content">
+    <h3 class="content-header">Mechanical Engineering Projects</h3>
+    <div class="directory-section">
+      {% for project in site.projects %}{% if project.project-type=="mechanical"
+      %}
+      <div class="project-preview">{% include project-preview.html %}</div>
+      {% endif %} {% endfor %}
+    </div>
+  </div>
+  <div class="home-content">
+    <h3 class="content-header">Software Development Projects</h3>
+    <div class="directory-section">
+      {% for project in site.projects %}{% if project.project-type=="software"
+      %}
+      <div class="project-preview">{% include project-preview.html %}</div>
+      {% endif %} {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="project">
+  <h1>{{ page.name }}</h1>
+  <div class="col-two">
+    <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+      {% for image in page.images %}
+      <img src="{{ image }}" alt="" />
+      {% endfor %}
+    </div>
+    <div class="col col-content">
+      <div id="gallery-photo" class="gallery-photo">
+        <img src="{{ page.thumb-image }}" alt="Image title 1" />
+      </div>
+    </div>
+  </div>
+</div>

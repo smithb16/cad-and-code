@@ -1,9 +1,7 @@
-<div class="project-preview">
-  <a href="{{ project.url }}">
-    <img src="{{ project.thumb-image }}" alt="{{ project.name }}" />
-    <h4 class="project-name">{{ project.name }}</h4>
-    <p>
-      {{ project.preview-blurb }}
-    </p>
-  </a>
-</div>
+<a href="{{ project.url }}">
+  <img src="{{ project.thumb-image }}" alt="{{ project.name }}" />
+  <h6 class="project-name">{{ project.name }}</h6>
+  <p class="preview-blurb">
+    {{ project.preview-blurb }}
+  </p>
+</a>
