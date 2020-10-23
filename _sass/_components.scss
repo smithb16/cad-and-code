@@ -1,27 +1,10 @@
 // File: _layout.scss
 // This file contains all styles related to the layout of the site.
 
-/* VARIABLES */
-// color palette:
-// https://coolors.co/82c0cc-ede7e3-006992-ffa62b-27233a
-$dark-blue: #022249;
-$cyan: #95ffff;
-$middle-blue: #55bdca;
-$light-blue: #c7eef5;
-$light-orange: #f07c41;
-$orange: #df622c;
-$dark-orange: #982604;
-$black: #111;
-$gray: #999;
-$white: rgba(255, 255, 255, 0.9);
-
-// $bdr: 1px solid black;
-$bdr: none;
-$list-margin: 0 0 0 3em;
-$font-stack: helvetica, arial, sans-serif;
-$heading-font-stack: "Barlow Condensed", sans-serif;
+@import "variables.scss";
 
 /* GLOBAL STYLES */
+
 html {
   background-color: $dark-blue;
   // This font size sets all em and
@@ -29,6 +12,7 @@ html {
   font-size: 16px;
 }
 .content-container {
+  min-height: 90vh;
   padding-top: 10vh;
   width: 100%;
 }
@@ -332,10 +316,11 @@ li {
   box-sizing: border-box;
   display: inline-block;
   font-family: $heading-font-stack;
+  font-size: 4.6vh;
   font-weight: bold;
   height: 7vh;
   line-height: 1;
-  padding-top: 2vh;
+  padding-top: 1.3vh;
   text-align: center;
   vertical-align: middle;
   width: 7vh;

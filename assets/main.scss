@@ -1,8 +1,11 @@
 ---
 ---
 
-// two lines of triple slashes required for Jekyll to recognize and process file
+// two lines of triple dashes required for Jekyll to read file
 
 // File: main.scss
+@import "scss/fontawesome.scss";
+@import "scss/brands.scss";
+@import "scss/solid.scss";
 @import "base.scss";
 @import "components.scss";
