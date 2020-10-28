@@ -1,7 +1,27 @@
 // File: _layout.scss
 // This file contains all styles related to the layout of the site.
 
-@import "variables.scss";
+/* VARIABLES */
+// color palette:
+// https://coolors.co/82c0cc-ede7e3-006992-ffa62b-27233a
+$dark-blue: #022249;
+$cyan: #95ffff;
+$middle-blue: #55bdca;
+$light-blue: #c7eef5;
+$light-orange: #f07c41;
+$orange: #df622c;
+$dark-orange: #982604;
+$black: #111;
+$gray: #999;
+$white: rgba(255, 255, 255, 0.9);
+
+// $bdr: 1px solid black;
+$bdr: none;
+$list-margin: 0 0 0 3em;
+$font-stack: helvetica, arial, sans-serif;
+$heading-font-stack: "Barlow Condensed", sans-serif;
+
+$fa-font-path: "/webfonts";
 
 /* GLOBAL STYLES */
 
@@ -399,24 +419,29 @@ li {
 .gallery-thumbs > div {
   cursor: pointer;
 }
-.gallery-thumbs img {
-  border-radius: 5px;
-  box-sizing: border-box;
-  box-shadow: 0 0 0 5px transparent;
-  display: inline-block;
-  margin: 0 0 10px;
-  opacity: 0.5;
-  // transition: all 0.5s ease-in-out;
-  width: 100%;
-}
-.gallery-thumbs img:hover {
-  opacity: 1;
-}
-.gallery-thumbs .current img {
-  box-shadow: 0 0 0 5px #ed6e2f;
-  opacity: 1;
+.gallery-thumbs {
+  img {
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 5px transparent;
+    display: inline-block;
+    margin: 0 0 10px;
+    min-width: 80px;
+    opacity: 0.5;
+    // transition: all 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  img:hover {
+    opacity: 1;
+  }
+
+  figcaption {
+    display: none;
+  }
 }
 .gallery-thumbs:first-child:before {
+  // make scroll-down photo arrow
   border: 16px solid;
   border-color: rgba(255, 255, 255, 0.9) transparent transparent;
   bottom: 8vh;
@@ -426,15 +451,20 @@ li {
   transform: translate(-50%, 0);
   z-index: 30;
 }
+.current-thumb img {
+  box-shadow: 0 0 0 2px $orange;
+  opacity: 1;
+}
+
 .gallery-photo {
   position: relative;
-}
-.gallery-photo img {
-  border-radius: 5px;
-  box-shadow: 11px 8px 20px 0px rgba(0, 0, 0, 0.5);
-  display: block;
-  margin: 0 auto;
-  height: 70vh;
+  img {
+    border-radius: 5px;
+    box-shadow: 11px 8px 20px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 0 auto;
+    max-width: 70vw;
+  }
 }
 .project-content {
   display: block;

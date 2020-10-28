@@ -3,11 +3,10 @@ name: Sprinter Camper Van #1
 thumb-image: /assets/images/van-1/van-thumb.JPG
 preview-blurb: I lived in this van for 6 months while traveling the American West. The van featured solar power, stove, sink, bed, and custom "cabinetry".
 project-type: mechanical
-
-images: [/assets/images/van-1/van-thumb.jpg, /assets/images/van-1/van-thumb.jpg]
 ---
 
-{% include project-gallery.html %}
+{% assign gallery = site.data.galleries.van-kitchen %} {% include
+project-gallery.html %}
 <div class="project-content">
   <p>Van content here.</p>
 

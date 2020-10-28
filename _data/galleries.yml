@@ -1,0 +1,20 @@
+---
+van-kitchen:
+  section-title: Custom Kitchen
+  images:
+  - location: "/assets/images/van-1/van-thumb.jpg"
+    caption: this is the stove
+  - location: "/assets/images/van-1/van-thumb.jpg"
+    caption: it was the best of times
+  - location: "/assets/images/fixed-gear-bicycle/Bike1.JPG"
+    caption: when in rome
+
+bicycle:
+  section-title: This is my Bicycle
+  images:
+  - location: "/assets/images/fixed-gear-bicycle/Bike1.JPG"
+    caption: tomorrow we feast
+  - location: "/assets/images/van-1/van-thumb.jpg"
+    caption: no jam today
+  - location: "/assets/images/van-1/van-thumb.jpg"
+    caption: but jam tomorrow
