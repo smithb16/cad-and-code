@@ -6,13 +6,13 @@ van-kitchen:
     caption: this is the stove
   - location: "/assets/images/van-1/van-thumb.jpg"
     caption: it was the best of times
-  - location: "/assets/images/fixed-gear-bicycle/Bike1.jpg"
+  - location: "/assets/images/fixed-gear-bicycle/bike1.jpg"
     caption: when in rome
 
 bicycle:
   section-title: This is my Bicycle
   images:
-  - location: "/assets/images/fixed-gear-bicycle/Bike1.jpg"
+  - location: "/assets/images/fixed-gear-bicycle/bike1.jpg"
     caption: tomorrow we feast
   - location: "/assets/images/van-1/van-thumb.jpg"
     caption: no jam today
