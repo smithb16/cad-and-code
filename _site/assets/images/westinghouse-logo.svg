@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="100"
+   height="99.949997"
+   overflow="visible"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="westinghouselogo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   style="overflow:visible">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="974"
+     inkscape:window-width="1104"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="91.375656"
+     inkscape:cy="66.354014"
+     inkscape:window-x="568"
+     inkscape:window-y="24"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="false" />
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 49.974998 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="100 : 49.974998 : 1"
+       inkscape:persp3d-origin="50 : 33.316666 : 1"
+       id="perspective2389" />
+    <inkscape:perspective
+       id="perspective2398"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="lol">
+    <path
+       d="M 69.4,37.1 C 67.466667,35.533334 66.516666,33.583334 66.55,31.25 C 66.55,29.15 67.3,27.366667 68.8,25.9 C 70.266666,24.466667 72.05,23.75 74.15,23.75 C 76.183334,23.75 77.916668,24.466667 79.35,25.9 C 80.85,27.366667 81.6,29.15 81.6,31.25 C 81.6,33.316668 80.85,35.100001 79.35,36.6 C 77.916668,38 76.183334,38.716666 74.15,38.75 L 73.5,38.75 L 61.85,61.95 L 50.05,38.75 L 38.2,61.95 L 26.65,38.75 L 26,38.75 C 23.933332,38.716666 22.15,37.966666 20.65,36.5 C 19.216667,35.066667 18.5,33.316666 18.5,31.25 C 18.5,29.15 19.216667,27.366667 20.65,25.9 C 22.15,24.466667 23.933332,23.75 26,23.75 C 28.066668,23.75 29.85,24.466667 31.35,25.9 C 32.783333,27.366667 33.5,29.15 33.5,31.25 C 33.5,33.65 32.566668,35.599999 30.7,37.1 L 38.3,52.85 L 45.8,37.35 C 43.633333,35.75 42.566667,33.716667 42.6,31.25 C 42.566667,29.15 43.266666,27.366667 44.7,25.9 C 46.2,24.4 47.983334,23.65 50.05,23.65 C 52.116667,23.65 53.9,24.4 55.4,25.9 C 56.9,27.366667 57.65,29.15 57.65,31.25 C 57.65,33.716667 56.583333,35.750001 54.45,37.35 L 61.95,52.85 L 69.4,37.1 z M 50.2,3.95 C 37.433331,3.95 26.516665,8.45 17.45,17.45 C 8.483334,26.416668 4,37.283335 4,50.05 C 4,62.816669 8.483334,73.700003 17.45,82.7 C 26.516666,91.7 37.433333,96.2 50.2,96.2 C 62.933332,96.2 73.8,91.7 82.8,82.7 C 91.833332,73.633333 96.35,62.749999 96.35,50.05 C 96.35,37.35 91.833332,26.483334 82.8,17.45 C 73.8,8.45 62.933332,3.95 50.2,3.95 z M 100,49.95 C 100,63.716666 95.116665,75.483334 85.35,85.25 C 75.583332,95.01667 63.783333,99.91667 49.95,99.95 C 36.183331,99.916668 24.416664,95.016666 14.65,85.25 C 4.88333,75.55 -3.9999975e-06,63.783333 2.4584779e-12,49.95 C 2.4584779e-12,36.183331 4.883335,24.416664 14.65,14.65 C 24.416668,4.88333 36.183334,-3.9999976e-06 49.95,2.444267e-12 C 63.783334,2.444267e-12 75.583332,4.883335 85.35,14.65 C 95.11667,24.416668 100,36.183334 100,49.95 z M 65.05,65.7 C 68.95,65.7 70.900002,67.55 70.9,71.25 C 70.9,75.116667 68.95,77.05 65.05,77.05 L 34.55,77.05 C 30.616667,77.05 28.666668,75.116667 28.7,71.25 C 28.666666,67.55 30.616665,65.699999 34.55,65.7 L 65.05,65.7 z"
+       id="path12"
+       style="fill:#000066;stroke:none;stroke-linecap:round;stroke-linejoin:round;overflow:visible;fill-opacity:1" />
+  </g>
+</svg>

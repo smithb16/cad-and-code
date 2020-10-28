@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Guide Service Automated Booking| Zapier & Airtable</title>
+  <meta charset="utf-8" />
+  <!-- <link rel="stylesheet" href=""> -->
+  <link rel="icon" href="/favicon.png" />
+  <link rel="stylesheet" href="/assets/main.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Auto-update site on development -->
+  <script type="text/javascript" src="http://livejs.com/live.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-181072020-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-181072020-1");
+  </script>
+  <script src="/assets/js/gallery.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      activateGallery();
+    });
+  </script>
+</head>
+
+  <body>
+    <header class="header">
+  <div class="header-logo">
+    <a class="text-logo" href="/">CAD<br />&<br />Code</a>
+
+  </div>
+  <nav>
+    <ul class="header-nav nav-links">
+      <li><a href="/about">About</a></li>
+<li><a href="/projects">Portfolio</a></li>
+<li><a href="/contact">Contact</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+    <div class="content-container">
+      <div class="project-content">
+  <p>
+    <strong>Features </strong>This system does not fully automate the trip
+    booking process. It instead replaces administrative copy-pasting, generating
+    documents from trip information stored in a central location. The system
+    performs the following:
+  </p>
+  <ul>
+    <li>
+      Generates a guide-facing Google Calendar event containing relevant links,
+      client information, and trip details.
+    </li>
+    <li>
+      Generates a Google Form and associated results spreadsheet to collect
+      client information (medical details, climbing experience, etc.)
+    </li>
+    <li>
+      Sends custom trip confirmation email to clients containing guide details,
+      meeting location details, etc.
+    </li>
+    <li>
+      Sends pre-trip reminder emails to the guide, and generates messages for
+      easier guide-client communication.
+    </li>
+    <li>
+      Allows for additional groups and additional guides to be added to trip
+      after initial trip booking.
+    </li>
+    <li>
+      System was developed with minimal coding to facilitate maintenance by
+      guide service administrators rather than software engineers.
+    </li>
+  </ul>
+  <p>
+    <strong>Airtable </strong>Our Airtable relational databases contain
+    information about our clients, guides, meeting locations, and trip
+    offerings. The Airtable button features allow us to instantly take action on
+    a trip, such as adding a new group to an existing trip. Airtable easily
+    integrates with Zapier.
+  </p>
+  <p>
+    <strong>Zapier </strong>Zapier is the glue that connects all pieces in this
+    system. Zapier is a visual API, allowing Airtable, Google Forms, Google
+    Drive, and Gmail to communicate with each other.
+  </p>
+  <p>
+    <strong>Google Apps Script </strong>This system uses Google Apps Script, a
+    derivative of JavaScript, for advanced automated editing of Google objects.
+    The script receives JSON objects via POST requests and modifies existing
+    Google Forms and Calendar events accordingly.
+  </p>
+  <p>
+    <strong>Phase 3: Profit </strong>This system reduced the per-trip
+    administrative time by 60% and, more importantly, eliminated copy-paste
+    errors. Administrators can manually modify all documents before delivery to
+    the client, useful for one-off needs. The guide service's administrators now
+    use their time for projects that are more interesting than copy-pasting.
+  </p>
+</div>
+
+    </div>
+    <footer class="footer home-content">
+  <nav>
+    <ul class="footer-nav nav-links">
+      <li><a href="/about">About</a></li>
+<li><a href="/projects">Portfolio</a></li>
+<li><a href="/contact">Contact</a></li>
+
+    </ul>
+  </nav>
+  <div class="footer-logo">
+    <a class="text-logo" href="/">CAD<br />&<br />Code</a>
+
+  </div>
+  <p class="site-credits">
+    Designed by hand by me using Jekyll. Source code
+    <a
+      href="https://github.com/smithb16/cad-and-code"
+      target="_blank"
+      rel="noopener"
+      >here</a
+    >.
+  </p>
+</footer>
+
+  </body>
+</html>
