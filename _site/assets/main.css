@@ -3186,7 +3186,7 @@ li { font-size: 0.95em; line-height: 1.5; padding: 0.3em 0; }
 .col-three .col-aside { flex: 0 1 20em; }
 
 /* PROJECT PAGE STYLES */
-.project h1 { font-size: 3rem; padding: 3vh 0 0; text-align: center; }
+.project-gallery h1 { font-size: 3rem; padding: 3vh 0 0; text-align: center; }
 
 .gallery-thumbs { height: 70vh; max-width: 25vw; overflow: scroll; }
 
