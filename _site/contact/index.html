@@ -6,12 +6,12 @@
   <!-- <link rel="stylesheet" href=""> -->
   <link rel="icon" href="/favicon.png" />
   <link rel="stylesheet" href="/assets/main.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&display=swap"
-    rel="stylesheet"
-  />
-  <!-- Auto-update site on development -->
-  <script type="text/javascript" src="http://livejs.com/live.js"></script>
+  <!-- <link -->
+  <!--   href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&display=swap" -->
+  <!--   rel="stylesheet" -->
+  <!-- /> -->
+  <!-- <!-1- Auto-update site on development -1-> -->
+  <!-- <script type="text/javascript" src="http://livejs.com/live.js"></script> -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
     async
@@ -52,28 +52,64 @@
 
     <div class="content-container">
       <div class="contact">
-  <div class="hero-content">
-    <ul class="social-list">
-  <li>
-    <a
-      href="https://www.instagram.com/benbebuilding/"
-      target="_blank"
-      rel="noopener"
-      class="social-link"
-    >
-      <i class="fab fa-instagram"></i>
-    </a>
-  </li>
-  <li>
-    <a href="/contact" class="social-link">
-      <i class="fas fa-envelope"></i>
-    </a>
-  </li>
-</ul>
+  <p>
+    Questions about a project? Got a problem you want me to solve? Reach out
+    below.
+  </p>
+  <ul class="contact-gallery skills-gallery">
+    <li>
+      <a href="mailto:ben@cadandcode.com">
+        <h3>
+          <i class="fas fa-envelope"></i>
+        </h3>
+        <p>ben@cadandcode.com</p>
+      </a>
+    </li>
+    <li>
+      <h3>
+        <i class="fas fa-phone"></i>
+      </h3>
+      <p>(123) 456-7890</p>
+    </li>
+    <li>
+      <a
+        href="https://www.instagram.com/benbebuilding/"
+        target="_blank"
+        rel="noopener"
+      >
+        <h3>
+          <i class="fab fa-instagram"></i>
+        </h3>
+        <p>
+          @benbebuilding
+        </p>
+      </a>
+    </li>
+  </ul>
 
-  </div>
+  <form id="contact-form" accept-charset="UTF-8">
+    <label for="user_name">Name</label>
+    <br />
+    <input value="testing" id="user_name" type="text" />
+    <br />
 
-  <p><strong>Email:</strong> info@cadandcode.com</p>
+    <label for="user_phone">Phone</label>
+    <br />
+    <input id="user_phone" type="text" />
+    <br />
+
+    <label for="user_email">Email</label>
+    <br />
+    <input id="user_email" type="email" />
+    <br />
+
+    <label for="user_email">Message</label>
+    <br />
+    <textarea name="message" rows="15" cols="40"></textarea>
+    <br />
+
+    <button type="submit">Submit</button>
+  </form>
 </div>
 
     </div>

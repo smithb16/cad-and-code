@@ -96,6 +96,32 @@ li {
   line-height: 1.5;
   padding: 0.3em 0;
 }
+form {
+  margin: 10vh 0 0;
+}
+input,
+textarea,
+button {
+  margin: 0.4em 0 1.5em;
+  width: 60vw;
+}
+input {
+  height: 1.5em;
+  font-size: 0.9em;
+}
+button {
+  height: 2em;
+  background-color: $white;
+  color: $middle-blue;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button:hover {
+  color: $white;
+  background-color: $black;
+}
+
 /* HEADER STYLES */
 .header {
   align-items: center;
@@ -172,7 +198,7 @@ li {
   }
 }
 .hero-content .social-link {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: $white;
   color: $middle-blue;
 }
 .hero-content .social-link:hover {
@@ -440,17 +466,17 @@ li {
     display: none;
   }
 }
-.gallery-thumbs:first-child:before {
-  // make scroll-down photo arrow
-  border: 16px solid;
-  border-color: rgba(255, 255, 255, 0.9) transparent transparent;
-  bottom: 8vh;
-  content: "";
-  left: 12%;
-  position: absolute;
-  transform: translate(-50%, 0);
-  z-index: 30;
-}
+// .gallery-thumbs:first-child:before {
+//   // make scroll-down photo arrow
+//   border: 16px solid;
+//   border-color: rgba(255, 255, 255, 0.9) transparent transparent;
+//   bottom: 8vh;
+//   content: "";
+//   left: 12%;
+//   position: absolute;
+//   transform: translate(-50%, 0);
+//   z-index: 30;
+// }
 .current-thumb img {
   box-shadow: 0 0 0 2px $orange;
   opacity: 1;
@@ -524,4 +550,27 @@ li {
 .text-logo:hover,
 .text-logo:active {
   color: $middle-blue;
+}
+
+/* CONTACT FORM STYLING */
+.contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  margin: 1em 0;
+}
+
+.contact-gallery {
+  margin: 0;
+  width: 85vw;
+  li {
+    width: inherit;
+  }
+  a {
+    color: inherit;
+  }
+  a:hover {
+    color: $middle-blue;
+  }
 }
