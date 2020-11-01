@@ -1,10 +1,10 @@
 function activateGallery() {
-  let galleries = document.querySelectorAll(".project-gallery");
+  let galleries = document.querySelectorAll(".photo-gallery");
   galleries.forEach(function (gallery) {
-    let thumbnails = gallery.querySelectorAll("#gallery-thumbs>figure>img");
-    let mainImage = gallery.querySelector("#gallery-photo>figure>img");
+    let thumbnails = gallery.querySelectorAll(".gallery-thumbs>figure>img");
+    let mainImage = gallery.querySelector(".gallery-photo>figure>img");
     let mainImageCaption = gallery.querySelector(
-      "#gallery-photo>figure>figcaption"
+      ".gallery-photo>figure>figcaption"
     );
 
     thumbnails.forEach(function (thumbnail) {

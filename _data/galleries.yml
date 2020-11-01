@@ -12,9 +12,11 @@ van-kitchen:
 bicycle:
   section-title: This is my Bicycle
   images:
+  - location: "/assets/images/fixed-gear-bicycle/bike2.jpg"
+    caption: The stallion, completed.
   - location: "/assets/images/fixed-gear-bicycle/bike1.jpg"
-    caption: tomorrow we feast
-  - location: "/assets/images/van-1/van-thumb.jpg"
-    caption: no jam today
-  - location: "/assets/images/van-1/van-thumb.jpg"
-    caption: but jam tomorrow
+    caption: The stallion, completed.
+  - location: "/assets/images/fixed-gear-bicycle/bikeframe.jpg"
+    caption: Frame after welding and before assembly.
+  - location: "/assets/images/fixed-gear-bicycle/bikedrawing.jpg"
+    caption: Frame in digital form. CAD models became full-sized printouts, which helped with jigging.

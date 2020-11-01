@@ -1,0 +1,26 @@
+{% assign current = gallery.images[0] %}
+
+<div class="photo-gallery">
+  <h2>{{ gallery.section-title }}</h2>
+  <div class="col-two">
+    <div class="col gallery-thumbs">
+      {% for image in gallery.images %}
+
+        <figure {% if image == current %} class="current-thumb" {% endif %}>
+        <img
+          {% if image.caption %}data-caption="{{ image.caption }}"{% endif %}
+          src="{{ image.location }}"
+          alt=""
+        />
+        <figcaption>{{ image.caption }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    <div class="col gallery-photo">
+      <figure>
+        <img src="{{ current.location }}" alt="" />
+        <figcaption>{{ current.caption }}</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>

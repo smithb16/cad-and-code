@@ -1,7 +1,12 @@
-<a href="{{ project.url }}">
-  <img src="{{ project.thumb-image }}" alt="{{ project.name }}" />
-  <h6 class="project-name">{{ project.name }}</h6>
-  <p class="preview-blurb">
-    {{ project.preview-blurb }}
-  </p>
+{% if project.override-url %}
+<a href="{{ project.override-url }}" target="_blank" rel="noopener">
+  {% else %}
+  <a href="{{ project.url }}">
+    {% endif %}
+    <img src="{{ project.thumb-image }}" alt="{{ project.name }}" />
+    <h6 class="project-name">{{ project.name }}</h6>
+    <p class="preview-blurb">
+      {{ project.preview-blurb }}
+    </p>
+  </a>
 </a>

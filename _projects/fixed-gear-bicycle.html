@@ -9,7 +9,8 @@ preview-blurb: When I couldn't find the bike I wanted, I decided I'd build one m
 project-type: mechanical
 ---
 
-{% include project-gallery.html %}
+{% assign gallery = site.data.galleries.bicycle %}{% include photo-gallery.html
+%}
 <div class="project-content">
   <p>
     <strong>Geometry</strong> Using a combination of online research, personal
