@@ -476,6 +476,7 @@ button:hover {
   color: $dark-blue;
   font-size: 0.9em;
   height: fit-content;
+  line-height: 1.3;
   padding: 1em;
   position: sticky;
 }
@@ -551,8 +552,9 @@ button:hover {
 .contact-gallery {
   margin: 0;
   width: 85vw;
-  li {
-    width: inherit;
+  p {
+    display: inline-block;
+    margin: 0 auto;
   }
   a {
     color: inherit;

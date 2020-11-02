@@ -57,20 +57,12 @@
     below.
   </p>
   <ul class="contact-gallery skills-gallery">
-    <li>
-      <a href="mailto:ben@cadandcode.com">
-        <h3>
-          <i class="fas fa-envelope"></i>
-        </h3>
-        <p>ben@cadandcode.com</p>
-      </a>
-    </li>
-    <li>
-      <h3>
-        <i class="fas fa-phone"></i>
-      </h3>
-      <p>(123) 456-7890</p>
-    </li>
+    <!-- <li> -->
+    <!--   <h3> -->
+    <!--     <i class="fas fa-phone"></i> -->
+    <!--   </h3> -->
+    <!--   <p>(123) 456-7890</p> -->
+    <!-- </li> -->
     <li>
       <a
         href="https://www.instagram.com/benbebuilding/"
@@ -101,15 +93,17 @@
     </li>
   </ul>
 
-  <form id="contact-form" accept-charset="UTF-8">
+  <form
+  action="https://webhook.site/30fee962-dc45-4461-aa3a-39792559c63a"
+  method="POST" id="contact-form" accept-charset="UTF-8">
     <label for="user_name">Name</label>
     <br />
-    <input id="user_name" type="text" />
+    <input name="user_name" type="text" />
     <br />
 
     <label for="user_phone">Phone</label>
     <br />
-    <input id="user_phone" type="text" />
+    <input name="user_phone" type="text" />
     <br />
 
     <label for="user_email">Email</label>

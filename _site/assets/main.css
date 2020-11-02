@@ -3207,7 +3207,7 @@ button:hover { color: rgba(255, 255, 255, 0.9); background-color: #111; }
 
 .gallery-photo img { height: 100%; }
 
-.gallery-photo:hover figcaption { background-color: rgba(255, 255, 255, 0.8); bottom: 0; color: #022249; font-size: 0.9em; height: fit-content; padding: 1em; position: sticky; }
+.gallery-photo:hover figcaption { background-color: rgba(255, 255, 255, 0.8); bottom: 0; color: #022249; font-size: 0.9em; height: fit-content; line-height: 1.3; padding: 1em; position: sticky; }
 
 .project-content { display: block; margin: 0 auto; max-width: 950px; padding: 0 5vw; }
 
@@ -3236,7 +3236,7 @@ button:hover { color: rgba(255, 255, 255, 0.9); background-color: #111; }
 
 .contact-gallery { margin: 0; width: 85vw; }
 
-.contact-gallery li { width: inherit; }
+.contact-gallery p { display: inline-block; margin: 0 auto; }
 
 .contact-gallery a { color: inherit; }
 

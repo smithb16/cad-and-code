@@ -12,11 +12,11 @@ van-kitchen:
 bicycle:
   section-title: This is my Bicycle
   images:
-  - location: "/assets/images/fixed-gear-bicycle/bike2.jpg"
-    caption: The stallion, completed.
-  - location: "/assets/images/fixed-gear-bicycle/bike1.jpg"
-    caption: The stallion, completed.
-  - location: "/assets/images/fixed-gear-bicycle/bikeframe.jpg"
+  - location: "/assets/images/fixed-gear-bicycle/fixed-gear-bicycle.jpg"
+    caption: The completed bike. One gear and one brake makes assembly easy.
+  - location: "/assets/images/fixed-gear-bicycle/fixed-gear-bicycle-profile.jpg"
+    caption: Cleaning up seat tubes, head tubes, and bottom-bracket threads is the hardest step in assembly.
+  - location: "/assets/images/fixed-gear-bicycle/bike-frame-welded.jpg"
     caption: Frame after welding and before assembly.
-  - location: "/assets/images/fixed-gear-bicycle/bikedrawing.jpg"
+  - location: "/assets/images/fixed-gear-bicycle/bike-frame-drawing.jpg"
     caption: Frame in digital form. CAD models became full-sized printouts, which helped with jigging.
