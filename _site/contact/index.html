@@ -7,7 +7,7 @@
   <link rel="icon" href="/favicon.png" />
   <link rel="stylesheet" href="/assets/main.css" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;500;800&family=Barlow:wght@300;500&family=Open+Sans&display=swap"
     rel="stylesheet"
   />
   <!-- Auto-update site on development -->
@@ -94,26 +94,22 @@
   </ul>
 
   <form
-  action="https://webhook.site/30fee962-dc45-4461-aa3a-39792559c63a"
-  method="POST" id="contact-form" accept-charset="UTF-8">
+  action="https://formspree.io/f/mrgokyre"
+  method="POST" id="contact-form" accept-charset="UTF-8"
+  enctype="multipart/form-data">
     <label for="user_name">Name</label>
     <br />
-    <input name="user_name" type="text" />
-    <br />
-
-    <label for="user_phone">Phone</label>
-    <br />
-    <input name="user_phone" type="text" />
+    <input  placeholder= "Jane Doe" name="user_name" type="text" />
     <br />
 
     <label for="user_email">Email</label>
     <br />
-    <input id="user_email" type="email" />
+    <input placeholder="janedoe@example.com"  id="user_email" type="email" />
     <br />
 
     <label for="user_email">Message</label>
     <br />
-    <textarea name="message" rows="15" cols="40"></textarea>
+    <textarea  name="message" rows="15" cols="40"></textarea>
     <br />
 
     <button type="submit">Submit</button>

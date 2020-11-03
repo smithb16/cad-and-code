@@ -3,3 +3,4 @@ fonts/
 .jekyll-cache
 test.html
 _site/test/
+.env

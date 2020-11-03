@@ -3036,9 +3036,11 @@ html { background-color: #022249; font-size: 16px; }
 
 .content-container { min-height: 90vh; padding-top: 10vh; width: 100%; }
 
-body { color: rgba(255, 255, 255, 0.9); font-family: helvetica, arial, sans-serif; min-height: 100vh; }
+body { color: rgba(255, 255, 255, 0.9); font-family: "Barlow", helvetica, arial, sans-serif; font-weight: 300; min-height: 100vh; }
 
-h1, h2, h3, h4, h5, h6, p { margin: 0.5em 2vw 0 2vw; }
+h1, h2, h3, h4, h5, h6 { font-weight: 500; margin: 0.5em 2vw 0 2vw; }
+
+p { margin: 0.5em 2vw 0 2vw; }
 
 ol, ul { margin: 0.5em 2vw 0 5vw; }
 
@@ -3062,7 +3064,7 @@ li { font-size: 0.95em; line-height: 1.5; padding: 0.3em 0; }
 
 form { margin: 3vw 0 0; }
 
-input, textarea, button { margin: 0.4em 0 1.5em; width: 60vw; }
+input, textarea, button { font-family: "Barlow", helvetica, arial, sans-serif; margin: 0.4em 0 1.5em; max-width: 600px; width: 60vw; }
 
 input { height: 1.5em; font-size: 0.9em; }
 
@@ -3081,9 +3083,9 @@ button:hover { color: rgba(255, 255, 255, 0.9); background-color: #111; }
 
 .header-nav > li ~ li { border-left: 1px solid rgba(0, 0, 0, 0.3); padding-left: 1em; }
 
-.nav-links a { font-weight: bold; text-transform: uppercase; }
+.nav-links a { font-weight: bold; color: #022249; text-transform: uppercase; }
 
-.nav-links a:hover { color: #022249; }
+.nav-links a:hover { color: #55bdca; }
 
 /* HERO STYLES */
 .full-hero { background-color: #c7dbfc; background-size: cover; box-shadow: 0 0 30px 12px rgba(0, 0, 0, 0.5); box-sizing: border-box; height: 90vh; padding-top: 10vh; }
@@ -3124,7 +3126,7 @@ button:hover { color: rgba(255, 255, 255, 0.9); background-color: #111; }
 .pos-bottom { background-position: bottom center; }
 
 /* GALLERY STYLES */
-.skills-gallery { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; list-style: none; }
+.skills-gallery { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; list-style: none; }
 
 .skills-gallery li { text-align: center; width: 20%; }
 
@@ -3225,14 +3227,14 @@ button:hover { color: rgba(255, 255, 255, 0.9); background-color: #111; }
 
 .footer-nav a:hover { color: rgba(255, 255, 255, 0.9); }
 
-.text-logo { color: #022249; display: block; font-family: "Barlow Condensed", sans-serif; font-size: 3vh; line-height: 0.9; margin-left: 10px; text-transform: uppercase; }
+.text-logo { color: #022249; display: block; font-family: "Barlow Condensed", sans-serif; font-size: 3vh; font-weight: 800; line-height: 0.9; margin-left: 10px; text-transform: uppercase; }
 
 .logo-ampersand { display: inline-block; }
 
 .text-logo:hover, .text-logo:active { color: #55bdca; }
 
 /* CONTACT FORM STYLING */
-.contact { align-items: center; display: flex; flex-direction: column; font-size: 1.3rem; margin: 1em 0; }
+.contact { align-items: center; display: flex; flex-direction: column; font-size: 1.2rem; margin: 1em 0; }
 
 .contact-gallery { margin: 0; width: 85vw; }
 

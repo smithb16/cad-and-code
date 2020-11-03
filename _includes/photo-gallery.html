@@ -8,7 +8,7 @@
 
         <figure {% if image == current %} class="current-thumb" {% endif %}>
         <img
-          {% if image.caption %}data-caption="{{ image.caption }}"{% endif %}
+          data-caption="{{ image.caption }}"
           src="{{ image.location }}"
           alt=""
         />
