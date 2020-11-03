@@ -6,7 +6,7 @@ van-kitchen:
     caption: this is the stove
   - location: "/assets/images/van-1/van-thumb.jpg"
     caption: it was the best of times
-  - location: "/assets/images/fixed-gear-bicycle/bike1.jpg"
+  - location: "/assets/images/fixed-gear-bicycle/fixed-gear-bicycle.jpg"
     caption: when in rome
 
 bicycle:
