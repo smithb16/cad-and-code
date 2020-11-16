@@ -571,7 +571,9 @@ button:hover {
     color: $middle-blue;
   }
 }
-
+.g-recaptcha > div {
+  margin: 0 auto;
+}
 // /* MOBILE STYLING */
 // @media (max-width: 600px) {
 //   /* MOBILE GLOBAL */

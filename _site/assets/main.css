@@ -3244,4 +3244,6 @@ button:hover { color: rgba(255, 255, 255, 0.9); background-color: #111; }
 
 .contact-gallery a:hover { color: #55bdca; }
 
+.g-recaptcha > div { margin: 0 auto; }
+
 /*# sourceMappingURL=main.css.map */
