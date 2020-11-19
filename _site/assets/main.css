@@ -3246,4 +3246,10 @@ button:hover { color: rgba(255, 255, 255, 0.9); background-color: #111; }
 
 .g-recaptcha > div { margin: 0 auto; }
 
+#data-table { font-family: calibri, arial; margin: 30px auto; width: 400px; }
+
+#data-table thead td { background-color: #8cccf1; }
+
+#data-table td { border: 1px solid #466e85; width: 136px; padding: 7px; }
+
 /*# sourceMappingURL=main.css.map */

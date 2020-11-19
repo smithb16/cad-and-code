@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Contact | CAD & Code | Small-Business Design Solutions</title>
+  <title></title>
   <meta charset="utf-8" />
   <!-- <link rel="stylesheet" href=""> -->
   <link rel="icon" href="/favicon.png" />
@@ -66,73 +66,63 @@
 </header>
 
     <div class="content-container">
-      <div class="contact">
-  <p>
-    Questions about a project? Got a problem you want me to solve? Reach out
-    below.
-  </p>
-  <ul class="contact-gallery skills-gallery">
-    <!-- <li> -->
-    <!--   <h3> -->
-    <!--     <i class="fas fa-phone"></i> -->
-    <!--   </h3> -->
-    <!--   <p>(123) 456-7890</p> -->
-    <!-- </li> -->
-    <li>
-      <a
-        href="https://www.instagram.com/benbebuilding/"
-        target="_blank"
-        rel="noopener"
-      >
-        <h3>
-          <i class="fab fa-instagram"></i>
-        </h3>
-        <p>
-          @benbebuilding
-        </p>
-      </a>
-      <li>
-        <a
-          href="https://github.com/smithb16/cad-and-code"
-          target="_blank"
-          rel="noopener"
-        >
-          <h3>
-            <i class="fab fa-github"></i>
-          </h3>
-          <p>
-            smithb16
-          </p>
-        </a>
-      </li>
-    </li>
-  </ul>
+      <table id="data-table">
+  <thead id="table-header"></thead>
+  <tbody id="table-body">
+    <tr>
+      <td id="row1">x=1</td>
+      <td id="a1">value 1</td>
+      <td id="a2">value 2</td>
+      <td id="a3">value 3</td>
+      <td id="a4">value 4</td>
+    </tr>
+    <tr>
+      <td id="row2">x=2</td>
+      <td id="b1">value 1</td>
+      <td id="b2">value 2</td>
+      <td id="b3">value 3</td>
+      <td id="b4">value 4</td>
+    </tr>
+    <tr>
+      <td id="row3">x=3</td>
+      <td id="c1">value 1</td>
+      <td id="c2">value 2</td>
+      <td id="c3">value 3</td>
+      <td id="c4">value 4</td>
+    </tr>
+    <tr>
+      <td id="row4">x=4</td>
+      <td id="d1">value 1</td>
+      <td id="d2">value 2</td>
+      <td id="d3">value 3</td>
+      <td id="d4">value 4</td>
+    </tr>
+  </tbody>
+</table>
 
-  <form
-  action="https://formspree.io/f/mrgokyre"
-  method="POST" id="contact-form" accept-charset="UTF-8"
-  enctype="multipart/form-data">
-    <label for="user_name">Name</label>
-    <br />
-    <input  placeholder= "Jane Doe" name="user_name" type="text" />
-    <br />
+<p>
+  <label for="x-value">Price range:</label>
+  <input
+    type="text"
+    id="x-value"
+    readonly
+    style="border: 0; color: #f6931f; font-weight: bold;"
+  />
+</p>
 
-    <label for="user_email">Email</label>
-    <br />
-    <input placeholder="janedoe@example.com"  id="user_email" type="email" />
-    <br />
+<div id="x-slider-range"></div>
 
-    <label for="user_email">Message</label>
-    <br />
-    <textarea  name="message" rows="15" cols="40"></textarea>
-    <br />
-    <div class="g-recaptcha"
-      data-sitekey="6LeOjuMZAAAAAOyUq9UzylNkJqP7rTE6NLLY4vvd"></div>
-    <br>
+<p>
+  <label for="y-value">Price range:</label>
+  <input
+    type="text"
+    id="y-value"
+    readonly
+    style="border: 0; color: #f6931f; font-weight: bold;"
+  />
+</p>
 
-    <button type="submit">Submit</button>
-  </form>
-</div>
+<div id="y-slider-range"></div>
 
     </div>
     <footer class="footer home-content">
