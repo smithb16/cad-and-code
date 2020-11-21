@@ -1,0 +1,36 @@
+---
+---
+
+<form name="cattle-calculator">
+  <input name="firstName" type="text" placeholder="First Name" />
+  <input name="lastName" type="text" placeholder="Last Name" />
+  <input name="email" type="email" placeholder="Email" required />
+  <input
+    name="avgWeight"
+    type="number"
+    placeholder="Average Weight (lb)"
+    step="1"
+    min="0"
+  />
+  <input
+    name="costOfGain"
+    type="number"
+    placeholder="Cost of Gain ($/lb)"
+    step="0.01"
+    min="0"
+  />
+  <button type="submit">Send</button>
+</form>
+
+<script>
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycby4wFK58hDUWZbOFWuTqlxmfjJLd8KyyPk37bXtyye2huSPmiuv/exec";
+  const form = document.forms["cattle-calculator"];
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    fetch(scriptURL, { method: "POST", body: new FormData(form) })
+      .then((response) => console.log("Success!", response))
+      .catch((error) => console.error("Error!", error.message));
+  });
+</script>
